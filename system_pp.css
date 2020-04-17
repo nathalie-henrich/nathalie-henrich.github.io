@@ -1,0 +1,377 @@
+/* Document CSS pages personnelle */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {	
+	margin: 15px 0 ;
+	text-align: center ; /*Pour centrer objets dans IE*/
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	background: #fff ;
+}
+
+/*Blocs*/
+
+#global {
+	width: 950px ;
+	margin: 0 auto ;
+	text-align: left ;
+}
+
+#top {
+	width: 950px ;
+	height: 175px; 
+	float:left;
+	background-image: url(system_img/top.gif);
+}
+
+#top_img {
+	height: 150px;
+	width:145px;
+	border: none;
+	float: right;
+	margin-right:17px;
+	margin-top:25px;
+	background-image: url(mes_images/maphoto.jpg);
+}
+
+#top_left {
+	width: 788px ;
+	height: 175px; 
+	float:right;
+}
+
+#top_name {
+	width: 550px ;
+	height: 36px; 
+	float:left;
+	margin-left:213px;
+	margin-top:17px;
+}
+
+#top_name1 {
+	height: 36px;
+	font-size:30px;
+	color: #555;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	float: right;
+}
+
+#top_name2 {
+	height: 36px;
+	font-size:30px;
+	color: #555;
+	font-family:Arial, Helvetica, sans-serif;
+	float: right;
+	margin-top:0px;
+	margin-right:15px;
+}
+
+
+#top_position {
+	width: 550px ;
+	height: 14px;
+	font-size:14px;
+	color: #444;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:right;
+	float:left;
+	margin-top:4px;
+
+}
+
+#top_menu {
+	width: 670px ;
+	height: 16px;
+	font-size:14px;
+	color: #676767;
+	margin-left:-120px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+	margin-top:40px;
+}
+
+#top_menu_fr_en {
+	width: 670px ;
+	height: 16px;
+	font-size:14px;
+	color: #676767;
+	margin-left:-120px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+	margin-top:7px;
+}
+
+.menu {
+	height: 16px;
+	font-size:14px;
+	color: #676767;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:12px;
+	float:right;
+}
+
+.menu2 {
+	height: 16px;
+	font-size:14px;
+	color: #333; 
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:12px;
+	float:right;
+}
+
+.menu_perso {
+	width:160px;
+	margin-right:9px;
+	margin-top:7px;
+	float:right;
+	line-height:22px;
+	font-size:11px;
+	color: #676767;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#menu_version {
+margin-top:13px;
+	width:550px;
+	height:20px;
+	float:left;
+}
+.menu_fr_en {
+	width:60px;
+	height:20px;
+	text-align:center;
+	float:right;
+}
+
+
+a.fr {width:27px;height:15px;float:left;background:url(system_img/fr.gif);}
+a.fr_off {width:27px;height:15px;float:left;background:url(system_img/fr_off.gif);}
+a:hover.fr_off {width:27px;height:15px;float:left;background:url(system_img/fr.gif);}
+
+a.en {width:27px;height:15px;float: right;background:url(system_img/en.gif);}
+a.en_off {width:27px;height:15px;float: right;background:url(system_img/en_off.gif);}
+a:hover.en_off {width:27px;height:15px;float: right;background:url(system_img/en.gif);}
+
+
+.menu_perso a {
+	height: 30px;
+	font-size:12px;
+	color: #B446BB;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.menu_perso a:hover {
+	height: 30px;
+	font-size:12px;
+	color: #B446BB;
+	font-style:normal;
+	text-decoration:underline;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+	height: 16px;
+	font-size:14px;
+	color: #676767;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.menu a:hover {
+	height: 16px;
+	font-size:14px;
+	color: #333;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:underline;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#cont_glob { 
+	width:950px; 
+	float:left;
+}
+
+
+
+#cont { 
+	width:950px;
+	float: left;
+	background-repeat:repeat-y;
+	background:url(system_img/bg_cont.gif);
+}
+
+
+/* Titre de catégorie */
+
+
+.cont_infos {
+	width:300px;
+	float:right;
+}
+
+.cont_cv {
+	width:600px;
+	float:left;
+	color: #444;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height: 18px;
+}
+
+.infos_cont {
+	width:280px;
+	float: left;
+	margin-top:20px;
+	color: #666;
+	font-size:12px;
+}
+
+.bg_infos {
+	width:280px;
+	margin-top:10px;
+	padding-left:15px;
+	color:#444;
+	background:url(system_img/bg_titre.gif);
+	background-repeat:repeat-y;
+	float: left;
+}
+
+#titre_cont {
+	width:600px; 
+	height:32px;
+	float: left;
+	margin-top:20px;
+	margin-bottom:20px;
+	line-height: normal;
+}
+
+.bg_titre {
+	height:24px;
+	width:18px;
+	background:url(system_img/bg_titre.gif);
+	background-repeat:repeat-y;
+	float: left;
+	margin-top:6px;
+}
+
+.titre_cat { 
+	height:32px; 
+	font-size:32px; 
+	color: #777;
+	background:url(system_img/bg_cont.gif);
+	float: left;
+}
+
+#contenu { 
+	width:750px;
+	float: left;
+	color: #444;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height: 18px;
+}
+
+#marg_cont {
+	width:950px;
+	height:37px;
+	float: left;
+	background:url(system_img/bg_cont.gif);
+}
+
+#bg_bottom { 
+	width:950px;
+	height:9px;
+	float: left;
+	background:url(system_img/bg_bottom.gif);
+}
+#contenu_bottom { 
+	width:950px;
+	height:52px;
+	font-size:12px;
+	color: #676767;
+	font-family:Arial, Helvetica, sans-serif;
+	float: left;
+	margin-top:3px;
+}
+
+#cont_bottom {
+float:left;
+height:52px;
+line-height:18px;
+}
+
+#logo_bottom {
+float:right;
+height:52px;
+width:262px;
+background-repeat:no-repeat;
+}
+
+h1 { font-family:Arial, Helvetica, sans-serif;
+font-size:20px;
+color:#676767;
+}
+
+h2 { font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#676767;
+}
+
+h3 { font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#676767;
+}
+
+h4 { font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#676767;
+}
+
+h5 { font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#676767;
+}
+
+h6 { font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#676767;
+font-style:italic;
+}
+
+li {
+margin-left:14px;
+}
+
+a {
+font-size:13px;
+color:#B446BB;
+font-weight:bold;
+text-decoration:none;
+}
+
+a:hover {
+font-size:13px;
+color:#B446BB;
+font-weight:bold;
+text-decoration:underline;
+}
+.sign {
+font-size:11px;
+font-family:Arial, Helvetica, sans-serif;
+color:#676767;
+}
+.txt_bold {
+font-weight:bold;
+color:#777;
+}
